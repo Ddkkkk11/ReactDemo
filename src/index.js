@@ -1,8 +1,11 @@
-import ReactDOM from 'react-dom';
+// import ReactDOM from 'react-dom';
+import {createRoot} from "react-dom/client";
 // import React from 'react';
-import App from "./Child";
+import App from "./App5";
 
-ReactDOM.render(<App/>,document.getElementById('root'));
+createRoot(document.getElementById('root')).render(<App/>)
+// ReactDOM.render(<App/>,document.getElementById('root'));
+// ReactDOM.creatRoot(document.getElementById('root')).render(<App/>);
 /*
 setTimeout(()=>{
   ReactDOM.render(<input/>,document.getElementById('root'));
