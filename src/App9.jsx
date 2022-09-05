@@ -23,7 +23,7 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
   return {
     add(){
-      const action = {type : 'addNum'};
+      const action = {type : 'addNum',value:2};
       dispatch(action);
     }
   }
