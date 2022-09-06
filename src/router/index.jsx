@@ -14,7 +14,6 @@ const BaseRouter = () => (
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<APP/>}> </Route>
-
       <Route path="/home" element={<Home/>}></Route>
       <Route path="/detail" element={<Detail/>}></Route>
       <Route path="/list" element={<List/>}></Route>
